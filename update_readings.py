@@ -80,6 +80,10 @@ def main():
         sys.exit(1)
 
     user_id = config['user_id']
+    if not os.path.exists('books.json'):
+        with open('books.json', 'wt') as f:
+            json.dump([], f)
+
     with open('books.json', 'rt') as f:
         books = json.load(f)
 
