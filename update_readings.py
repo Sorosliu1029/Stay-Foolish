@@ -9,55 +9,67 @@ import re
 import json
 import os.path
 import sys
+from datetime import datetime
+from jinja2 import Environment, FileSystemLoader
 
 DOMAIN = ".douban.com"
 
-def get_initial_cookies():
-    r = requests.head("https://www{}".format(DOMAIN))
-    if r.ok:
-        r.cookies.clear(domain=DOMAIN, path='/', name='ll')
-    return r.cookies.copy()
+def parse_date(date):
+    return datetime.strptime(date, '%Y-%m-%d')
 
-def get_user_book_status(user_id, start=0, mode="grid", cookies=None):
+def get_user_book_status(session, user_id, start, mode="grid"):
     params = {
         "sort": "time",
         "start": start,
-        "filter": "all",
         "mode": mode,
-        "tags_sort": "count"
     }
-    r = requests.get("https://book.douban.com/people/{}/collect".format(user_id), params=params, cookies=cookies)
+    r = session.get("https://book.douban.com/people/{}/collect".format(user_id), params=params)
     if r.ok:
         return r.text
 
-def get_rated_books(html):
-    soup = BeautifulSoup(html, "lxml")
-    rating_pattern = re.compile(r'rating(\d+)-t')
-    date_pattern = re.compile(r'\d+-\d+-\d+')
-    for status in soup.find_all('li', 'subject-item'):
-        pic = status.find('div', 'pic')
-        info = status.find('div', 'info')
+def get_rated_books(session, user_id, latest_book_date):
+    start = 0
+    while True:
+        if session.cookies:
+            html = get_user_book_status(session, user_id, start)
+        assert html
+        start += 15
 
-        book_img = pic.find('img')['src']
-        book_img_width = int(pic.find('img')['width'])
-        title_text = info.h2.a.get_text()
+        soup = BeautifulSoup(html, "lxml")
+        rating_pattern = re.compile(r'rating(\d+)-t')
+        date_pattern = re.compile(r'\d+-\d+-\d+')
+        items = soup.find_all('li', 'subject-item')
+        if not items:
+            return
 
-        title = re.sub(r'\s', '', title_text)
-        short_note = info.find('div', 'short-note')
-        rating_match = rating_pattern.search(''.join(short_note.div.span['class']))
-        if rating_match:
-            rate = rating_match.group(1)
-        date_match = date_pattern.search(short_note.find('span', 'date').get_text())
-        if date_match:
-            date = date_match.group(0)
+        for status in items:
+            pic = status.find('div', 'pic')
+            info = status.find('div', 'info')
+            short_note = info.find('div', 'short-note')
 
-        yield {
-            'title': title,
-            'book_img_url': book_img,
-            'book_img_width': book_img_width,
-            'rate': int(rate),
-            'date': date
-        }
+            cover_url = pic.find('img')['src']
+            title_text = info.h2.a.get_text()
+            title = re.sub(r'\s', '', title_text)
+
+            rating_match = rating_pattern.search(''.join(short_note.div.span['class']))
+            if rating_match:
+                rate = rating_match.group(1)
+
+            date_match = date_pattern.search(short_note.find('span', 'date').get_text())
+            if date_match:
+                date = date_match.group(0)
+
+            assert rate and date
+            if parse_date(date) <= latest_book_date:
+                return
+
+            yield {
+                'title': title,
+                'cover_url': cover_url,
+                'rate': int(rate) * ':+1:',
+                'date': date
+            }
+
 
 def main():
     if os.path.exists('config.json'):
@@ -68,11 +80,27 @@ def main():
         sys.exit(1)
 
     user_id = config['user_id']
-    cookie = get_initial_cookies()
-    html = get_user_book_status(user_id, cookies=cookie)
-    books = list(get_rated_books(html))
+    with open('books.json', 'rt') as f:
+        books = json.load(f)
+
+    assert books != None
+
+    if books:
+        latest_book_date = parse_date(books[0]["date"])
+    else:
+        latest_book_date = parse_date('1970-01-01')
+
+    with requests.Session() as s:
+        s.head('https://www{}'.format(DOMAIN))
+        new_books = list(get_rated_books(s, user_id, latest_book_date))
+
+    books = new_books + books
     with open('books.json', 'wt') as f:
         json.dump(books, f, indent=2, ensure_ascii=False)
+        
+    env = Environment(loader=FileSystemLoader('templates'))
+    template = env.get_template('README.template')
+    template.stream(books=books).dump('README.md')
 
 if __name__ == "__main__":
     main()

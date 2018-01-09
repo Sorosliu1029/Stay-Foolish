@@ -1,0 +1,38 @@
+# Stay Foolish
+
+Containing books I read, etc.
+
+---
+### Books I read
+
+<table>
+  <thead>
+    <tr>
+      <th>Cover</th>
+      <th>Title</th>
+      <th>Rating</th>
+      <th>Read Date</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for book in books %}
+    <tr>
+      <td><img src="{{ book.cover_url }}" alt="{{ book.title }}" width="50px" /></td>
+      <td>{{ book.title }}</td>
+      <td>{{ book.rate }}</td>
+      <td>{{ book.date }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+
+---
+Auto crawl, parse and generate periodically.
+
+Host on `cron` of my personal Raspberry Pi 3.
+
+Powered by:
+
+- [requests](http://docs.python-requests.org/)
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
+- [Jinja2](http://jinja.pocoo.org/)
