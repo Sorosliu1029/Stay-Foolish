@@ -1,0 +1,5 @@
+Jinja2==2.10
+MarkupSafe==1.0
+requests==2.18.4
+beautifulsoup4==4.6.0
+lxml==4.1.1
