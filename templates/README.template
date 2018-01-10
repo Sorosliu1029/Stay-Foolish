@@ -18,8 +18,8 @@ Containing books I read, etc.
   {%- for book in books %}
     <tr>
       <td><img src="{{ book.cover_url }}" alt="{{ book.title }}" width="50px" /></td>
-      <td>{{ book.title }}</td>
-      <td>{{ book.rate }}</td>
+      <td><a href="{{ book.douban_link }}" rel="nofollow">{{ book.title }}</a></td>
+      <td>{{ book.rate * ':+1:' }}</td>
       <td>{{ book.date }}</td>
     </tr>
   {%- endfor %}

@@ -48,6 +48,7 @@ def get_rated_books(session, user_id, latest_book_date):
             short_note = info.find('div', 'short-note')
 
             cover_url = pic.find('img')['src']
+            douban_link = info.h2.a['href']
             title_text = info.h2.a.get_text()
             title = re.sub(r'\s', '', title_text)
 
@@ -65,15 +66,15 @@ def get_rated_books(session, user_id, latest_book_date):
 
             yield {
                 'title': title,
+                'douban_link': douban_link,
                 'cover_url': cover_url,
-                'rate': int(rate) * ':+1:',
+                'rate': int(rate),
                 'date': date
             }
 
-
 def main():
     if os.path.exists('config.json'):
-        with open('config.json', 'rt') as f:
+        with open('config.json', 'rt', encoding='utf-8') as f:
             config = json.load(f)
     else:
         print('Please create "config.json" containing "user_id" field')
@@ -81,10 +82,10 @@ def main():
 
     user_id = config['user_id']
     if not os.path.exists('books.json'):
-        with open('books.json', 'wt') as f:
+        with open('books.json', 'wt', encoding='utf-8') as f:
             json.dump([], f)
 
-    with open('books.json', 'rt') as f:
+    with open('books.json', 'rt', encoding='utf-8') as f:
         books = json.load(f)
 
     assert books != None
@@ -98,10 +99,11 @@ def main():
         s.head('https://www{}'.format(DOMAIN))
         new_books = list(get_rated_books(s, user_id, latest_book_date))
 
-    books = new_books + books
-    with open('books.json', 'wt') as f:
-        json.dump(books, f, indent=2, ensure_ascii=False)
-        
+    if new_books:
+        books = new_books + books
+        with open('books.json', 'wt', encoding='utf-8') as f:
+            json.dump(books, f, indent=2, ensure_ascii=False)
+            
     env = Environment(loader=FileSystemLoader('templates'))
     template = env.get_template('README.template')
     template.stream(books=books).dump('README.md')
