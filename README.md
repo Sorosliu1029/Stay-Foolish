@@ -16,6 +16,60 @@ Containing books I read, etc.
   </thead>
   <tbody>
     <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s11284102.jpg" alt="霍乱时期的爱情" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/10594787/" rel="nofollow" target="_blank">霍乱时期的爱情</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s28367326.jpg" alt="鬼吹灯8：巫峡棺山" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692155/" rel="nofollow" target="_blank">鬼吹灯8：巫峡棺山</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s28367333.jpg" alt="鬼吹灯7：怒晴湘西" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692163/" rel="nofollow" target="_blank">鬼吹灯7：怒晴湘西</a></td>
+      <td>:+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s28367334.jpg" alt="鬼吹灯6：南海归虚" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692164/" rel="nofollow" target="_blank">鬼吹灯6：南海归虚</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img1.doubanio.com/mpic/s28367337.jpg" alt="鬼吹灯5：黄皮子坟" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692166/" rel="nofollow" target="_blank">鬼吹灯5：黄皮子坟</a></td>
+      <td>:+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img1.doubanio.com/mpic/s28367338.jpg" alt="鬼吹灯4：昆仑神宫" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692167/" rel="nofollow" target="_blank">鬼吹灯4：昆仑神宫</a></td>
+      <td>:+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s28367341.jpg" alt="鬼吹灯3：云南虫谷" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692170/" rel="nofollow" target="_blank">鬼吹灯3：云南虫谷</a></td>
+      <td>:+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s28367342.jpg" alt="鬼吹灯2：龙岭迷窟" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26692171/" rel="nofollow" target="_blank">鬼吹灯2：龙岭迷窟</a></td>
+      <td>:+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s28367330.jpg" alt="鬼吹灯1：精绝古城" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26676577/" rel="nofollow" target="_blank">鬼吹灯1：精绝古城</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-01-10</td>
+    </tr>
+    <tr>
       <td><img src="https://img3.doubanio.com/mpic/s27326123.jpg" alt="谋杀启事:阿加莎·克里斯蒂侦探作品集23" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/25928086/" rel="nofollow" target="_blank">谋杀启事:阿加莎·克里斯蒂侦探作品集23</a></td>
       <td>:+1::+1::+1::+1:</td>
