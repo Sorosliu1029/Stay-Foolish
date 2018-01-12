@@ -12,7 +12,6 @@ import sys
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 
-DOMAIN = ".douban.com"
 
 def parse_date(date):
     return datetime.strptime(date, '%Y-%m-%d')
@@ -96,7 +95,7 @@ def main():
         latest_book_date = parse_date('1970-01-01')
 
     with requests.Session() as s:
-        s.head('https://www{}'.format(DOMAIN))
+        s.head('https://www.douban.com/')
         new_books = list(get_rated_books(s, user_id, latest_book_date))
 
     if new_books:
