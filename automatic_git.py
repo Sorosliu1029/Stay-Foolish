@@ -14,6 +14,8 @@ def get_changed_files(repo):
     }
 
 def main():
+    argvs = sys.argv
+
     working_dir = osp.abspath(osp.curdir)
     repo = git.Repo(working_dir)
 
@@ -28,14 +30,16 @@ def main():
         print("Nothing modified, abort Git operation.")
         sys.exit(0)
 
-    assert 'README.md' in changed_files['modified']
+    if len(argvs) < 2:
+        assert 'README.md' in changed_files['modified']
     
     # Step 3. Add changed files for commit
     add_entries = repo.index.add(changed_files['modified'])
     assert add_entries
 
     # Step 4. Commit changes
-    c = repo.index.commit('Update README')
+    commit_message = argvs[1] if len(argvs) > 1 else 'Update README'
+    c = repo.index.commit(commit_message)
     assert c.hexsha == repo.head.commit.hexsha
 
     # Step 5. Push to origin remote repo
