@@ -27,7 +27,7 @@ Containing books I read, etc.
 </table>
 
 ---
-Auto crawl, parse and generate periodically.
+Auto crawl, parse, generate and git periodically.
 
 Host on `cron` of my personal Raspberry Pi 3.
 
@@ -36,3 +36,4 @@ Powered by:
 - [requests](http://docs.python-requests.org/)
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
 - [Jinja2](http://jinja.pocoo.org/)
+- [gitpython](https://gitpython.readthedocs.io/)
