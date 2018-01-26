@@ -16,12 +16,6 @@ Containing books I read, etc.
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://img3.doubanio.com/mpic/s11284102.jpg" alt="霍乱时期的爱情" width="50px" /></td>
-      <td><a href="https://book.douban.com/subject/10594787/" rel="nofollow" target="_blank">霍乱时期的爱情</a></td>
-      <td>:+1::+1::+1::+1::+1:</td>
-      <td>2018-01-10</td>
-    </tr>
-    <tr>
       <td><img src="https://img3.doubanio.com/mpic/s28367326.jpg" alt="鬼吹灯8：巫峡棺山" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/26692155/" rel="nofollow" target="_blank">鬼吹灯8：巫峡棺山</a></td>
       <td>:+1::+1::+1::+1::+1:</td>

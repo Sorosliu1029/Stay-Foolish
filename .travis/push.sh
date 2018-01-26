@@ -6,14 +6,14 @@ setup_git() {
 }
 
 commit() {
-  git checkout travis
+  git checkout master
   git add README.md books.json
   git commit --message "Update readme. Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
   git remote add origin-github https://${GH_TOKEN}@github.com/Sorosliu1029/Stay-Foolish.git > /dev/null 2>&1
-  git push --quiet --set-upstream origin-github travis
+  git push --quiet --set-upstream origin-github master
 }
 
 setup_git
