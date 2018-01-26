@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import json
-import os.path
+import os
 import sys
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
@@ -75,11 +75,13 @@ def main():
     if os.path.exists('config.json'):
         with open('config.json', 'rt', encoding='utf-8') as f:
             config = json.load(f)
+            user_id = config['user_id']
+    elif os.getenv('DOUBAN_USER_ID'):
+        user_id = os.getenv('DOUBAN_USER_ID')
     else:
         print('Please create "config.json" containing "user_id" field')
         sys.exit(1)
 
-    user_id = config['user_id']
     if not os.path.exists('books.json'):
         with open('books.json', 'wt', encoding='utf-8') as f:
             json.dump([], f)
