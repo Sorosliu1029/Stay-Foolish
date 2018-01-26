@@ -16,12 +16,6 @@ Containing books I read, etc.
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://img1.doubanio.com/mpic/s29331058.jpg" alt="世界的凛冬:世纪三部曲2" width="50px" /></td>
-      <td><a href="https://book.douban.com/subject/26957760/" rel="nofollow" target="_blank">世界的凛冬:世纪三部曲2</a></td>
-      <td>:+1::+1::+1::+1::+1:</td>
-      <td>2018-01-16</td>
-    </tr>
-    <tr>
       <td><img src="https://img3.doubanio.com/mpic/s11284102.jpg" alt="霍乱时期的爱情" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/10594787/" rel="nofollow" target="_blank">霍乱时期的爱情</a></td>
       <td>:+1::+1::+1::+1::+1:</td>

@@ -19,3 +19,4 @@ upload_files() {
 setup_git
 commit
 upload_files
+echo "Push succeed."

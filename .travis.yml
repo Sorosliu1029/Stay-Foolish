@@ -6,4 +6,5 @@ install:
 script:
   - python ./update_readings.py
 after_success:
-  - ./.travis/push.sh
+  - chmod +x .travis/push.sh
+  - .travis/push.sh
