@@ -29,7 +29,7 @@ Containing books I read, etc.
 ---
 Auto crawl, parse, generate and git periodically.
 
-Host on `cron` of my personal Raspberry Pi 3.
+Weekly updated by Travis CI [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
 
 Powered by:
 
