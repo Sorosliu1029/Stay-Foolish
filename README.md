@@ -3,7 +3,7 @@
 Containing books I read, etc.
 
 ---
-### Books I read (Count: 27)
+### Books I read (Count: 28)
 
 <table>
   <thead>
@@ -15,6 +15,12 @@ Containing books I read, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img3.doubanio.com/mpic/s27879964.jpg" alt="PythonCookbook" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/20491078/" rel="nofollow" target="_blank">PythonCookbook</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-01-29</td>
+    </tr>
     <tr>
       <td><img src="https://img1.doubanio.com/mpic/s29331058.jpg" alt="世界的凛冬:世纪三部曲2" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/26957760/" rel="nofollow" target="_blank">世界的凛冬:世纪三部曲2</a></td>
