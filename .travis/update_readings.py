@@ -49,7 +49,7 @@ def get_rated_books(session, user_id, latest_book_date):
             cover_url = pic.find('img')['src']
             douban_link = info.h2.a['href']
             title_text = info.h2.a.get_text()
-            title = re.sub(r'\s', '', title_text)
+            title = re.sub(r'[\r\n\t]| {2,}', '', title_text)
 
             rating_match = rating_pattern.search(''.join(short_note.div.span['class']))
             if rating_match:
@@ -72,8 +72,12 @@ def get_rated_books(session, user_id, latest_book_date):
             }
 
 def main():
-    if os.path.exists('config.json'):
-        with open('config.json', 'rt', encoding='utf-8') as f:
+    CONFIGURATION_FILE = os.path.join('.', 'config.json')
+    BOOK_STORE = os.path.join('.', 'books.json')
+    TEMPLATE_PATH = os.path.join('.', 'templates')
+
+    if os.path.exists(CONFIGURATION_FILE):
+        with open(CONFIGURATION_FILE, 'rt', encoding='utf-8') as f:
             config = json.load(f)
             user_id = config['user_id']
     elif os.getenv('DOUBAN_USER_ID'):
@@ -82,11 +86,11 @@ def main():
         print('Please create "config.json" containing "user_id" field')
         sys.exit(1)
 
-    if not os.path.exists('books.json'):
-        with open('books.json', 'wt', encoding='utf-8') as f:
+    if not os.path.exists(BOOK_STORE):
+        with open(BOOK_STORE, 'wt', encoding='utf-8') as f:
             json.dump([], f)
 
-    with open('books.json', 'rt', encoding='utf-8') as f:
+    with open(BOOK_STORE, 'rt', encoding='utf-8') as f:
         books = json.load(f)
 
     assert books != None
@@ -102,10 +106,10 @@ def main():
 
     if new_books:
         books = new_books + books
-        with open('books.json', 'wt', encoding='utf-8') as f:
+        with open(BOOK_STORE, 'wt', encoding='utf-8') as f:
             json.dump(books, f, indent=2, ensure_ascii=False)
             
-    env = Environment(loader=FileSystemLoader('templates'))
+    env = Environment(loader=FileSystemLoader(TEMPLATE_PATH))
     template = env.get_template('README.template')
     template.stream(books=books).dump('README.md')
 
