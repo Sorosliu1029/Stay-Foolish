@@ -3,7 +3,8 @@
 Containing books I read, etc.
 
 ---
-### Books I read (Count: {{ books|count }})
+### Books I read
+Count: {{ books|count }}
 
 <table>
   <thead>
