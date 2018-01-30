@@ -3,7 +3,8 @@
 Containing books I read, etc.
 
 ---
-### Books I read (Count: 28)
+### Books I read
+Count: 28
 
 <table>
   <thead>
