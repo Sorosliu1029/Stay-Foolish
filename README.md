@@ -4,7 +4,7 @@ Containing books I read, etc.
 
 ---
 ### Books I read
-Count: 28
+Count: 29
 
 <table>
   <thead>
@@ -16,6 +16,12 @@ Count: 28
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img1.doubanio.com/mpic/s29442128.jpg" alt="永恒的边缘: 世纪三部曲 3 " width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/27025715/" rel="nofollow" target="_blank">永恒的边缘: 世纪三部曲 3 </a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-02-07</td>
+    </tr>
     <tr>
       <td><img src="https://img3.doubanio.com/mpic/s27879964.jpg" alt="Python Cookbook" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/20491078/" rel="nofollow" target="_blank">Python Cookbook</a></td>
