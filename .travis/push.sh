@@ -7,7 +7,7 @@ setup_git() {
 
 commit() {
   git checkout master
-  git add README.md books.json
+  git add README.md data/*.json
   git commit --message "Update readme. Travis build: $TRAVIS_BUILD_NUMBER.[skip ci]"
 }
 
