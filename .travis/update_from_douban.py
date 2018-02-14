@@ -96,6 +96,7 @@ def update_books(user_id):
         with open(BOOK_STORE, 'wt', encoding='utf-8') as f:
             json.dump(books, f, indent=2, ensure_ascii=False)
 
+
 def get_user_movie_status(session, user_id, start, mode="grid"):
     params = {
         "sort": "time",
