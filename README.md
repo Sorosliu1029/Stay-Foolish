@@ -1,11 +1,11 @@
 # Stay Foolish
 
-Containing books I read, etc.
+Containing books I read, courses I took, etc.
 
 ---
 ### Books I read
-Count: 29
-
+<details open>
+<summary>Count: 29. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -192,15 +192,147 @@ Count: 29
     </tr>
   </tbody>
 </table>
+</details>
+
+---
+### Courses I took
+<details open>
+<summary>Count: 29. Unfold to see the list.</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Convolutional Neural Networks</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Deep Learning Specialization</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Sequence Models</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Structuring Machine Learning Projects</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Functional Programming Principles in Scala</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Neural Networks and Deep Learning</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Fundamentals of Computing Specialization</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>The Arduino Platform and C Programming</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>The Fundamentals of Computing Capstone Exam</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Capstone: Retrieving, Processing, and Visualizing Data with Python</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Machine Learning Foundations: A Case Study Approach</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Python for Everybody Specialization</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Algorithmic Thinking (Part 2)</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>An Introduction to Interactive Programming in Python (Part 2)</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Principles of Computing (Part 2)</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>机器学习</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Algorithmic Thinking (Part 1)</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>An Introduction to Interactive Programming in Python (Part 1)</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Introduction to the Internet of Things and Embedded Systems</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Principles of Computing (Part 1)</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Python 数据结构</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Responsive Website Basics: Code with HTML, CSS, and JavaScript </td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>The Raspberry Pi Platform and Python Programming for the Raspberry Pi</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Using Databases with Python</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Using Python to Access Web Data</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>用Python玩转数据 Data Processing Using Python</td>
+      <td>Coursera</td>
+    </tr>
+    <tr>
+      <td>Programming for Everybody (Getting Started with Python)</td>
+      <td>Coursera</td>
+    </tr>
+  </tbody>
+</table>
+</details>
 
 ---
 Auto crawl, parse, generate and git periodically.
 
-Weekly updated by Travis CI [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
+Weekly updated by Travis CI  [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
 
 Powered by:
 
 - [requests](http://docs.python-requests.org/)
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
 - [Jinja2](http://jinja.pocoo.org/)
-- [gitpython](https://gitpython.readthedocs.io/)
