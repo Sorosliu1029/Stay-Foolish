@@ -21,14 +21,12 @@ def get_configuration():
             douban_user_id = config['douban_user_id']
             linkedin_user_name = config['linkedin_user_name']
             linkedin_user_password = config['linkedin_user_password']
-    elif os.getenv('DOUBAN_USER_ID') \
-        and os.getenv('LINKEDIN_USER_NAME') \
-        and os.getenv('LINKEDIN_USER_PASSWORD'):
+    elif os.getenv('DOUBAN_USER_ID'):
         douban_user_id = os.getenv('DOUBAN_USER_ID')
-        linkedin_user_name = os.getenv('LINKEDIN_USER_NAME')
-        linkedin_user_password = os.getenv('LINKEDIN_USER_PASSWORD')
+        linkedin_user_name = None
+        linkedin_user_password = None
     else:
-        raise SystemExit('Please create "config.json" containing "douban_user_id" field')
+        raise SystemExit('Please create "config.json" containing "douban_user_id", "linkedin_user_name" and "linkedin_user_password" field')
 
     return {
         'douban_user_id': douban_user_id,
@@ -53,7 +51,8 @@ def main(skip_update=False):
         configuration = get_configuration()
 
         update_books(configuration['douban_user_id'])
-        update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
+        if configuration['linkedin_user_name'] is not None and configuration['linkedin_user_password'] is not None:
+            update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
 
     data = get_data()
 
