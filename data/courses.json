@@ -1,118 +1,118 @@
 [
   {
-    "title": "Convolutional Neural Networks",
+    "name": "Convolutional Neural Networks",
     "platform": "Coursera"
   },
   {
-    "title": "Deep Learning Specialization",
+    "name": "Deep Learning Specialization",
     "platform": "Coursera"
   },
   {
-    "title": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+    "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
     "platform": "Coursera"
   },
   {
-    "title": "Sequence Models",
+    "name": "Sequence Models",
     "platform": "Coursera"
   },
   {
-    "title": "Structuring Machine Learning Projects",
+    "name": "Structuring Machine Learning Projects",
     "platform": "Coursera"
   },
   {
-    "title": "機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations",
+    "name": "機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations",
     "platform": "Coursera"
   },
   {
-    "title": "Functional Programming Principles in Scala",
+    "name": "Functional Programming Principles in Scala",
     "platform": "Coursera"
   },
   {
-    "title": "Neural Networks and Deep Learning",
+    "name": "Neural Networks and Deep Learning",
     "platform": "Coursera"
   },
   {
-    "title": "Fundamentals of Computing Specialization",
+    "name": "Fundamentals of Computing Specialization",
     "platform": "Coursera"
   },
   {
-    "title": "The Arduino Platform and C Programming",
+    "name": "The Arduino Platform and C Programming",
     "platform": "Coursera"
   },
   {
-    "title": "The Fundamentals of Computing Capstone Exam",
+    "name": "The Fundamentals of Computing Capstone Exam",
     "platform": "Coursera"
   },
   {
-    "title": "Capstone: Retrieving, Processing, and Visualizing Data with Python",
+    "name": "Capstone: Retrieving, Processing, and Visualizing Data with Python",
     "platform": "Coursera"
   },
   {
-    "title": "Machine Learning Foundations: A Case Study Approach",
+    "name": "Machine Learning Foundations: A Case Study Approach",
     "platform": "Coursera"
   },
   {
-    "title": "Python for Everybody Specialization",
+    "name": "Python for Everybody Specialization",
     "platform": "Coursera"
   },
   {
-    "title": "Algorithmic Thinking (Part 2)",
+    "name": "Algorithmic Thinking (Part 2)",
     "platform": "Coursera"
   },
   {
-    "title": "An Introduction to Interactive Programming in Python (Part 2)",
+    "name": "An Introduction to Interactive Programming in Python (Part 2)",
     "platform": "Coursera"
   },
   {
-    "title": "Principles of Computing (Part 2)",
+    "name": "Principles of Computing (Part 2)",
     "platform": "Coursera"
   },
   {
-    "title": "机器学习",
+    "name": "机器学习",
     "platform": "Coursera"
   },
   {
-    "title": "Algorithmic Thinking (Part 1)",
+    "name": "Algorithmic Thinking (Part 1)",
     "platform": "Coursera"
   },
   {
-    "title": "An Introduction to Interactive Programming in Python (Part 1)",
+    "name": "An Introduction to Interactive Programming in Python (Part 1)",
     "platform": "Coursera"
   },
   {
-    "title": "Introduction to the Internet of Things and Embedded Systems",
+    "name": "Introduction to the Internet of Things and Embedded Systems",
     "platform": "Coursera"
   },
   {
-    "title": "Principles of Computing (Part 1)",
+    "name": "Principles of Computing (Part 1)",
     "platform": "Coursera"
   },
   {
-    "title": "Python 数据结构",
+    "name": "Python 数据结构",
     "platform": "Coursera"
   },
   {
-    "title": "Responsive Website Basics: Code with HTML, CSS, and JavaScript ",
+    "name": "Responsive Website Basics: Code with HTML, CSS, and JavaScript ",
     "platform": "Coursera"
   },
   {
-    "title": "The Raspberry Pi Platform and Python Programming for the Raspberry Pi",
+    "name": "The Raspberry Pi Platform and Python Programming for the Raspberry Pi",
     "platform": "Coursera"
   },
   {
-    "title": "Using Databases with Python",
+    "name": "Using Databases with Python",
     "platform": "Coursera"
   },
   {
-    "title": "Using Python to Access Web Data",
+    "name": "Using Python to Access Web Data",
     "platform": "Coursera"
   },
   {
-    "title": "用Python玩转数据 Data Processing Using Python",
+    "name": "用Python玩转数据 Data Processing Using Python",
     "platform": "Coursera"
   },
   {
-    "title": "Programming for Everybody (Getting Started with Python)",
+    "name": "Programming for Everybody (Getting Started with Python)",
     "platform": "Coursera"
   }
 ]

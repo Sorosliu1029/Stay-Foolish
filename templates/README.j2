@@ -1,11 +1,11 @@
 # Stay Foolish
 
-Containing books I read, etc.
+Containing books I read, courses I took, etc.
 
 ---
 ### Books I read
-Count: {{ books|count }}
-
+<details open>
+<summary>Count: {{ books|count }}. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -26,15 +26,37 @@ Count: {{ books|count }}
   {%- endfor %}
   </tbody>
 </table>
+</details>
+
+---
+### Courses I took
+<details open>
+<summary>Count: {{ courses|count }}. Unfold to see the list.</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for course in courses %}
+    <tr>
+      <td>{{ course.name }}</td>
+      <td>{{ course.platform }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</details>
 
 ---
 Auto crawl, parse, generate and git periodically.
 
-Weekly updated by Travis CI [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
+Weekly updated by Travis CI  [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
 
 Powered by:
 
 - [requests](http://docs.python-requests.org/)
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)
 - [Jinja2](http://jinja.pocoo.org/)
-- [gitpython](https://gitpython.readthedocs.io/)

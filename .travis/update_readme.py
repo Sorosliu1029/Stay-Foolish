@@ -48,17 +48,18 @@ def get_data():
         'courses': courses
     }
 
-def main():
-    configuration = get_configuration()
+def main(skip_update=False):
+    if not skip_update:
+        configuration = get_configuration()
 
-    update_books(configuration['douban_user_id'])
-    update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
+        update_books(configuration['douban_user_id'])
+        update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
 
     data = get_data()
 
     env = Environment(loader=FileSystemLoader(TEMPLATE_PATH))
-    template = env.get_template('README.template')
+    template = env.get_template('README.j2')
     template.stream(**data).dump('README.md')
 
 if __name__ == '__main__':
-    main()
+    main(skip_update=False)

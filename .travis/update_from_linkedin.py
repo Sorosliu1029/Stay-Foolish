@@ -40,6 +40,8 @@ def login_linkedin(sess, user_name, password):
 def get_course_platform(platform_verification):
     if 'coursera' in platform_verification.lower():
         return 'Coursera'
+    if 'edx' in platform_verification.lower():
+        return 'edX'
     else:
         return 'UNKNOWN'
 
@@ -53,14 +55,14 @@ def get_courses(sess, latest_course):
         certificatoins = soup.find_all('li', class_='certification')
         for cert in certificatoins:
             title = cert.header.find('h4', class_='item-title')
-            title = title.a.text
-            if title == latest_course:
+            name = title.a.text
+            if name == latest_course:
                 return
             platform = cert.header.find('h5', class_='item-subtitle')
             platform = platform.a.text
             platform = get_course_platform(platform)
             yield {
-                'title': title,
+                'name': name,
                 'platform': platform
             }
 
@@ -79,7 +81,7 @@ def update_courses(user_name, password):
     assert courses is not None
 
     if courses:
-        latest_course = courses[0]['title']
+        latest_course = courses[0]['name']
     else:
         latest_course = 'No course name would be like this'
     
@@ -95,3 +97,4 @@ def update_courses(user_name, password):
 
 if __name__ == '__main__':
     # update_courses(None, None)
+    pass
