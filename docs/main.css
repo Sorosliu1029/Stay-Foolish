@@ -56,6 +56,15 @@
     margin-bottom: 30px;
 }
 
+.table>thead>tr>th,
+.table>tbody>tr>td {
+    text-align: center;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
 body {
     background: #EDECEC;
     padding: 50px

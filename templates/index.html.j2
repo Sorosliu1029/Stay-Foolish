@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#books" aria-controls="books" role="tab" data-toggle="tab">Books</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#courses" aria-controls="courses" role="tab" data-toggle="tab">Courses</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#movies" aria-controls="movies" role="tab" data-toggle="tab">Movies</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="books">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Books I read</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Cover</th>
+                                            <th>Title</th>
+                                            <th>Rating</th>
+                                            <th>Read Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {%- for book in books %}
+                                            <tr>
+                                                <td><img src="{{ book.cover_url }}" alt="{{ book.title }}" width="50px" /></td>
+                                                <td><a href="{{ book.douban_link }}" rel="nofollow" target="_blank">{{ book.title }}</a></td>
+                                                <td>{{ book.rate * '👍' }}</td>
+                                                <td>{{ book.date }}</td>
+                                            </tr>
+                                        {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="courses">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Courses I took</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Platform</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {%- for course in courses %}
+                                        <tr>
+                                            <td>{{ course.name }}</td>
+                                            <td>{{ course.platform }}</td>
+                                        </tr>
+                                    {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="movies">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Movies I watched</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Poster</th>
+                                            <th>Title</th>
+                                            <th>Rating</th>
+                                            <th>Watched Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {%- for movie in movies %}
+                                            <tr>
+                                                <td><img src="{{ movie.poster_url }}" alt="{{ movie.title }}" width="50px" /></td>
+                                                <td><a href="{{ movie.douban_link }}" rel="nofollow" target="_blank">{{ movie.title }}</a></td>
+                                                <td>{{ movie.rate * '👍' }}</td>
+                                                <td>{{ movie.date }}</td>
+                                            </tr>
+                                        {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

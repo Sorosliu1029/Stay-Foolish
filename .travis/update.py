@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Update README file
+Update README file and GitHub Page index.html
 """
 import os
 import json
@@ -11,7 +11,10 @@ from update_from_linkedin import update_courses
 CONFIGURATION_FILE = os.path.join('.', 'config.json')
 TEMPLATE_PATH = os.path.join('.', 'templates')
 BOOK_STORE = os.path.join('data', 'books.json')
+MOVIE_STORE = os.path.join('data', 'movies.json')
 COURSE_STORE = os.path.join('data', 'courses.json')
+README_PATH = os.path.join('.', 'README.md')
+INDEX_PATH = os.path.join('docs', 'index.html')
 
 
 def get_configuration():
@@ -40,10 +43,14 @@ def get_data():
     
     with open(COURSE_STORE, 'rt', encoding='utf-8') as f:
         courses = json.load(f)
+
+    with open(MOVIE_STORE, 'rt', encoding='utf-8') as f:
+        movies = json.load(f)
     
     return {
         'books': books,
-        'courses': courses
+        'courses': courses,
+        'movies': movies
     }
 
 def main(skip_update=False):
@@ -57,8 +64,11 @@ def main(skip_update=False):
     data = get_data()
 
     env = Environment(loader=FileSystemLoader(TEMPLATE_PATH))
-    template = env.get_template('README.j2')
-    template.stream(**data).dump('README.md')
+    readme_template = env.get_template('README.j2')
+    readme_template.stream(**data).dump(README_PATH)
+
+    html_template = env.get_template('index.html.j2')
+    html_template.stream(**data).dump(INDEX_PATH)
 
 if __name__ == '__main__':
     main(skip_update=False)
