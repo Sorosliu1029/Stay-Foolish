@@ -22,6 +22,9 @@
                         <li role="presentation">
                             <a href="#movies" aria-controls="movies" role="tab" data-toggle="tab">Movies</a>
                         </li>
+                        <li role="presentation">
+                            <a href="#games" aria-controls="games" role="tab" data-toggle="tab">Games</a>
+                        </li>
                     </ul>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="books">
@@ -90,6 +93,46 @@
                                                 <td>{{ movie.rate * '👍' }}</td>
                                                 <td>{{ movie.date }}</td>
                                             </tr>
+                                        {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="games">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Games I played</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Rating</th>
+                                            <th>Platform</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {%- for game in games %}
+                                        <tr>
+                                            <td>
+                                                {%- if game.en_name is not none -%} 
+                                                    {{ game.en_name }}
+                                                {%- endif -%}
+                                                {%- if game.cn_name is not none -%}
+                                                    {{ ' / ' + game.cn_name }}
+                                                {%- endif -%}
+                                            </td>
+                                            <td>{{ game.rate * '👍' }}</td>
+                                            <td>
+                                                {% if game.itunes is not none -%} 
+                                                    <img src="apple.png" alt="apple icon" width="14px" />
+                                                    <a href="{{ game.itunes }}" target="_blank">Link</a>
+                                                {%- endif %}
+                                                {% if game.steam is not none -%} 
+                                                    {{ ' / ' }}
+                                                    <img src="steam.png" alt="steam icon" width="14px" />
+                                                    <a href="{{ game.steam }}" target="_blank">Link</a>
+                                                {%- endif %}
+                                            </td>
+                                        </tr>
                                         {%- endfor %}
                                     </tbody>
                                 </table>
