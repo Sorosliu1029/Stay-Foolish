@@ -3,6 +3,7 @@
 Update README file and GitHub Page index.html
 """
 import os
+import sys
 import json
 from jinja2 import Environment, FileSystemLoader
 from update_from_douban import update_books, update_movies
@@ -77,4 +78,7 @@ def main(skip_update=False):
     html_template.stream(**data).dump(INDEX_PATH)
 
 if __name__ == '__main__':
-    main(skip_update=False)
+    skip_update = False
+    if len(sys.argv) > 1:
+        skip_update = True
+    main(skip_update)

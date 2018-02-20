@@ -116,8 +116,11 @@
                                                 {%- if game.en_name is not none -%} 
                                                     {{ game.en_name }}
                                                 {%- endif -%}
+                                                {%- if game.en_name is not none and game.cn_name is not none -%} 
+                                                    {{ ' / ' }}
+                                                {%- endif -%}
                                                 {%- if game.cn_name is not none -%}
-                                                    {{ ' / ' + game.cn_name }}
+                                                    {{ game.cn_name }}
                                                 {%- endif -%}
                                             </td>
                                             <td>{{ game.rate * '👍' }}</td>
@@ -126,8 +129,10 @@
                                                     <img src="apple.png" alt="apple icon" width="14px" />
                                                     <a href="{{ game.itunes }}" target="_blank">Link</a>
                                                 {%- endif %}
-                                                {% if game.steam is not none -%} 
+                                                {% if game.itunes is not none and game.steam is not none -%} 
                                                     {{ ' / ' }}
+                                                {%- endif %}
+                                                {% if game.steam is not none -%} 
                                                     <img src="steam.png" alt="steam icon" width="14px" />
                                                     <a href="{{ game.steam }}" target="_blank">Link</a>
                                                 {%- endif %}

@@ -1,5 +1,61 @@
 [
   {
+    "en_name": "Botanicula",
+    "cn_name": "植物精灵",
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E7%B2%BE%E7%81%B5-botanicula/id853706620?mt=8",
+    "steam": "http://store.steampowered.com/app/207690/Botanicula"
+  },
+  {
+    "en_name": "Onimusha 3: Demon Siege",
+    "cn_name": "鬼武者3",
+    "rate": 5,
+    "itunes": null,
+    "steam": null
+  },
+  {
+    "en_name": "Devil May Cry 4",
+    "cn_name": "鬼泣4",
+    "rate": 5,
+    "itunes": null,
+    "steam": "http://store.steampowered.com/app/45700/Devil_May_Cry_4/"
+  },
+  {
+    "en_name": "Sid Meier's Civilization® V",
+    "cn_name": "文明5",
+    "rate": 5,
+    "itunes": null,
+    "steam": "http://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/"
+  },
+  {
+    "en_name": "Don't Starve: Reign of Giants",
+    "cn_name": "饥荒 巨人的统治",
+    "rate": 5,
+    "itunes": null,
+    "steam": "http://store.steampowered.com/app/282470/Dont_Starve_Reign_of_Giants/"
+  },
+  {
+    "en_name": "Don't Starve: Shipwrecked",
+    "cn_name": "饥荒 海难",
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/dont-starve-shipwrecked/id1147297267?mt=8",
+    "steam": "http://store.steampowered.com/app/393010/Dont_Starve_Shipwrecked/"
+  },
+  {
+    "en_name": "Don't Starve Together",
+    "cn_name": "饥荒联机版",
+    "rate": 5,
+    "itunes": null,
+    "steam": "http://store.steampowered.com/app/322330/Dont_Starve_Together/"
+  },
+  {
+    "en_name": "Don't Starve",
+    "cn_name": "饥荒",
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/dont-starve-pocket-edition/id1012298403?mt=8",
+    "steam": "http://store.steampowered.com/app/219740/Dont_Starve/"
+  },
+  {
     "en_name": "Machinarium",
     "cn_name": "机械迷城",
     "rate": 5,
