@@ -5,7 +5,7 @@ Update README file and GitHub Page index.html
 import os
 import json
 from jinja2 import Environment, FileSystemLoader
-from update_from_douban import update_books
+from update_from_douban import update_books, update_movies
 from update_from_linkedin import update_courses
 
 CONFIGURATION_FILE = os.path.join('.', 'config.json')
@@ -63,6 +63,7 @@ def main(skip_update=False):
         configuration = get_configuration()
 
         update_books(configuration['douban_user_id'])
+        update_movies(configuration['douban_user_id'])
         if configuration['linkedin_user_name'] is not None and configuration['linkedin_user_password'] is not None:
             update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
 
