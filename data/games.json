@@ -1,5 +1,12 @@
 [
   {
+    "en_name": "Machinarium",
+    "cn_name": "机械迷城",
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/%E6%9C%BA%E6%A2%B0%E8%BF%B7%E5%9F%8E-machinarium/id459189186?mt=8",
+    "steam": "http://store.steampowered.com/app/40700/Machinarium"
+  },
+  {
     "en_name": "This War of Mine",
     "cn_name": "这是我的战争",
     "rate": 5,
