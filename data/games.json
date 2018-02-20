@@ -1,5 +1,19 @@
 [
   {
+    "en_name": "Monument Valley",
+    "cn_name": "纪念碑谷",
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7/id728293409?mt=8",
+    "steam": null
+  },
+  {
+    "en_name": "Gorogoa",
+    "cn_name": null,
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/gorogoa/id1269225754?mt=8",
+    "steam": "http://store.steampowered.com/app/557600/Gorogoa/"
+  },
+  {
     "en_name": "Botanicula",
     "cn_name": "植物精灵",
     "rate": 5,
