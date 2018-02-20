@@ -20,6 +20,9 @@
                             <a href="#courses" aria-controls="courses" role="tab" data-toggle="tab">Courses</a>
                         </li>
                         <li role="presentation">
+                            <a href="#papers" aria-controls="papers" role="tab" data-toggle="tab">Papers</a>
+                        </li>
+                        <li role="presentation">
                             <a href="#movies" aria-controls="movies" role="tab" data-toggle="tab">Movies</a>
                         </li>
                         <li role="presentation">
@@ -67,6 +70,27 @@
                                         <tr>
                                             <td>{{ course.name }}</td>
                                             <td>{{ course.platform }}</td>
+                                        </tr>
+                                    {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="papers">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Papers I read. Count: {{ papers|count }}</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Title</th>
+                                            <th>Authors</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {%- for paper in papers %}
+                                        <tr>
+                                            <td><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></td>
+                                            <td>{{ paper.authors }}</td>
                                         </tr>
                                     {%- endfor %}
                                     </tbody>

@@ -51,6 +51,28 @@ Containing books I read, courses I took, etc.
 </details>
 
 ---
+### Papers I read
+<details open>
+<summary>Count: {{ papers|count }}. Unfold to see the list.</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for paper in papers %}
+    <tr>
+      <td><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></td>
+      <td>{{ paper.authors }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</details>
+
+---
 Auto crawl, parse, generate and git periodically.
 
 Weekly updated by Travis CI  [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)

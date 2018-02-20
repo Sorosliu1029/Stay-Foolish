@@ -14,6 +14,7 @@ TEMPLATE_PATH = os.path.join('.', 'templates')
 BOOK_STORE = os.path.join('data', 'books.json')
 MOVIE_STORE = os.path.join('data', 'movies.json')
 COURSE_STORE = os.path.join('data', 'courses.json')
+PAPER_STORE = os.path.join('data', 'papers.json')
 GAME_STORE = os.path.join('data', 'games.json')
 README_PATH = os.path.join('.', 'README.md')
 INDEX_PATH = os.path.join('docs', 'index.html')
@@ -45,6 +46,9 @@ def get_data():
     
     with open(COURSE_STORE, 'rt', encoding='utf-8') as f:
         courses = json.load(f)
+    
+    with open(PAPER_STORE, 'rt', encoding='utf-8') as f:
+        papers = json.load(f)
 
     with open(MOVIE_STORE, 'rt', encoding='utf-8') as f:
         movies = json.load(f)
@@ -55,11 +59,12 @@ def get_data():
     return {
         'books': books,
         'courses': courses,
+        'papers': papers,
         'movies': movies,
         'games': games
     }
 
-def main(skip_update=False):
+def main(skip_update):
     if not skip_update:
         configuration = get_configuration()
 
