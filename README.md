@@ -327,6 +327,26 @@ Containing books I read, courses I took, etc.
 </details>
 
 ---
+### Papers I read
+<details open>
+<summary>Count: 1. Unfold to see the list.</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Authors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://scholar.google.com/" target="_blank">placeholder</a></td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+---
 Auto crawl, parse, generate and git periodically.
 
 Weekly updated by Travis CI  [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
