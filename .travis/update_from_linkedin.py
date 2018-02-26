@@ -31,7 +31,7 @@ def login_linkedin(sess, user_name, password):
     }
     print(dict(sess.cookies))
     print(payload)
-    resp = sess.request("POST", url, data=payload, headers=headers)
+    resp = sess.post(url, data=payload, headers=headers)
     if resp.ok:
         assert 'soros' in resp.text
         return
