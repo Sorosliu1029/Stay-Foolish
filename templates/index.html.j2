@@ -23,6 +23,9 @@
                             <a href="#papers" aria-controls="papers" role="tab" data-toggle="tab">Papers</a>
                         </li>
                         <li role="presentation">
+                            <a href="#podcasts" aria-controls="podcasts" role="tab" data-toggle="tab">Podcasts</a>
+                        </li>
+                        <li role="presentation">
                             <a href="#movies" aria-controls="movies" role="tab" data-toggle="tab">Movies</a>
                         </li>
                         <li role="presentation">
@@ -91,6 +94,36 @@
                                         <tr>
                                             <td><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></td>
                                             <td>{{ paper.authors }}</td>
+                                        </tr>
+                                    {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="podcasts">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Podcasts I subscribed. Count: {{ podcasts|count }}</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Cover</th>
+                                            <th>Title</th>
+                                            <th>Description</th>
+                                            <th>Author</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {%- for podcast in podcasts %}
+                                        <tr>
+                                            <td><img src="{{ podcast.thumbnail_url }}" alt="{{ podcast.title }}" width="50px" /></td>
+                                            <td><a href="{{ podcast.url }}" target="_blank">{{ podcast.title }}</a></td>
+                                            <td>
+                                                <details>
+                                                    <summary>{{ podcast.description[:20] }}</summary>
+                                                    {{ podcast.description }}
+                                                </details>
+                                            </td>
+                                            <td>{{ podcast.author }}</td>
                                         </tr>
                                     {%- endfor %}
                                     </tbody>
