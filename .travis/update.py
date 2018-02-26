@@ -31,12 +31,12 @@ def get_configuration():
             linkedin_user_password = config['linkedin_user_password']
             pocketcasts_user_name = config['pocketcasts_user_name']
             pocketcasts_password = config['pocketcasts_password']
-    elif os.getenv('DOUBAN_USER_ID') and os.getenv('POCKETCASTS_USER_NAME') and os.getenv('POCKETCASTS_PASSWORD'):
+    elif os.getenv('DOUBAN_USER_ID'):
         douban_user_id = os.getenv('DOUBAN_USER_ID')
         linkedin_user_name = None
         linkedin_user_password = None
-        pocketcasts_user_name = os.getenv('POCKETCASTS_USER_NAME')
-        pocketcasts_password = os.getenv('POCKETCASTS_PASSWORD')
+        pocketcasts_user_name = None
+        pocketcasts_password = None
     else:
         raise SystemExit('Please create "config.json" containing "douban_user_id", "linkedin_user_name", "linkedin_user_password", "pocketcasts_user_name" and "pocketcasts_password" field')
 
@@ -82,10 +82,13 @@ def main(skip_update):
 
         update_books(configuration['douban_user_id'])
         update_movies(configuration['douban_user_id'])
-        update_podcasts(configuration['pocketcasts_user_name'], configuration['pocketcasts_password'])
+
         if configuration['linkedin_user_name'] is not None and configuration['linkedin_user_password'] is not None:
             update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
 
+        if configuration['pocketcasts_user_name'] is not None and configuration['pocketcasts_password'] is not None:
+            update_podcasts(configuration['pocketcasts_user_name'], configuration['pocketcasts_password'])
+    
     data = get_data()
 
     env = Environment(loader=FileSystemLoader(TEMPLATE_PATH))
