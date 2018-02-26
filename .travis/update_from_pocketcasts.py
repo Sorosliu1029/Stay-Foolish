@@ -20,7 +20,9 @@ def login_pocket_cast(sess, user_name, password):
     }
     payload = urlencode(data)
     headers = {
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36',
+        'Cache-Control': 'no-cache'
     }
     resp = sess.post(url, data=payload, headers=headers)
     if resp.ok:
@@ -63,7 +65,7 @@ def update_podcasts(user_name, password):
             json.dump(podcasts, f, indent=2, ensure_ascii=False)
     
 def main():
-    update_podcasts(None, None)    
+    update_podcasts(None, None)
 
 if __name__ == '__main__':
     main()

@@ -82,7 +82,7 @@ def main(skip_update):
 
         update_books(configuration['douban_user_id'])
         update_movies(configuration['douban_user_id'])
-        update_podcasts(configuration['pocketcasts_user_name', 'pocketcasts_password'])
+        update_podcasts(configuration['pocketcasts_user_name'], configuration['pocketcasts_password'])
         if configuration['linkedin_user_name'] is not None and configuration['linkedin_user_password'] is not None:
             update_courses(configuration['linkedin_user_name'], configuration['linkedin_user_password'])
 
