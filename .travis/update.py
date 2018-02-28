@@ -16,6 +16,7 @@ BOOK_STORE = os.path.join('data', 'books.json')
 MOVIE_STORE = os.path.join('data', 'movies.json')
 COURSE_STORE = os.path.join('data', 'courses.json')
 PAPER_STORE = os.path.join('data', 'papers.json')
+CODE_STORE = os.path.join('data', 'codes.json')
 PODCAST_STORE = os.path.join('data', 'podcasts.json')
 GAME_STORE = os.path.join('data', 'games.json')
 README_PATH = os.path.join('.', 'README.md')
@@ -57,6 +58,9 @@ def get_data():
     
     with open(PAPER_STORE, 'rt', encoding='utf-8') as f:
         papers = json.load(f)
+    
+    with open(CODE_STORE, 'rt', encoding='utf-8') as f:
+        codes = json.load(f)
 
     with open(PODCAST_STORE, 'rt', encoding='utf-8') as f:
         podcasts = json.load(f)
@@ -71,6 +75,7 @@ def get_data():
         'books': books,
         'courses': courses,
         'papers': papers,
+        'codes': codes,
         'podcasts': podcasts,
         'movies': movies,
         'games': games
