@@ -1,5 +1,19 @@
 [
   {
+    "title": "机器学习实战",
+    "douban_link": "https://book.douban.com/subject/24703171/",
+    "cover_url": "https://img3.doubanio.com/mpic/s26696371.jpg",
+    "rate": 3,
+    "date": "2018-03-02"
+  },
+  {
+    "title": "编码: 隐匿在计算机软硬件背后的语言 ",
+    "douban_link": "https://book.douban.com/subject/4822685/",
+    "cover_url": "https://img3.doubanio.com/mpic/s4379914.jpg",
+    "rate": 5,
+    "date": "2018-02-28"
+  },
+  {
     "title": "永恒的边缘: 世纪三部曲 3 ",
     "douban_link": "https://book.douban.com/subject/27025715/",
     "cover_url": "https://img1.doubanio.com/mpic/s29442128.jpg",
