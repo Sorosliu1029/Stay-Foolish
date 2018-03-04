@@ -4,6 +4,8 @@
     "name": "records",
     "html_url": "https://github.com/kennethreitz/records",
     "description": "SQL for Humans™",
-    "language": "Python"
+    "language": "Python",
+    "rate": 5,
+    "date": "2017-12-15"
   }
 ]

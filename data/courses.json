@@ -1,118 +1,147 @@
 [
   {
     "name": "Convolutional Neural Networks",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2018-02"
   },
   {
     "name": "Deep Learning Specialization",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2018-02"
   },
   {
     "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2018-02"
   },
   {
     "name": "Sequence Models",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2018-02"
   },
   {
     "name": "Structuring Machine Learning Projects",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2018-02"
   },
   {
     "name": "機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2018-01"
   },
   {
     "name": "Functional Programming Principles in Scala",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2017-12"
   },
   {
     "name": "Neural Networks and Deep Learning",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2017-12"
   },
   {
     "name": "Fundamentals of Computing Specialization",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-07"
   },
   {
     "name": "The Arduino Platform and C Programming",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-07"
   },
   {
     "name": "The Fundamentals of Computing Capstone Exam",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-07"
   },
   {
     "name": "Capstone: Retrieving, Processing, and Visualizing Data with Python",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-04"
   },
   {
     "name": "Machine Learning Foundations: A Case Study Approach",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-04"
   },
   {
     "name": "Python for Everybody Specialization",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-04"
   },
   {
     "name": "Algorithmic Thinking (Part 2)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-03"
   },
   {
     "name": "An Introduction to Interactive Programming in Python (Part 2)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-03"
   },
   {
     "name": "Principles of Computing (Part 2)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-03"
   },
   {
     "name": "机器学习",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-03"
   },
   {
     "name": "Algorithmic Thinking (Part 1)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-02"
   },
   {
     "name": "An Introduction to Interactive Programming in Python (Part 1)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-02"
   },
   {
     "name": "Introduction to the Internet of Things and Embedded Systems",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-02"
   },
   {
     "name": "Principles of Computing (Part 1)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-02"
   },
   {
     "name": "Python 数据结构",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-01"
   },
   {
     "name": "Responsive Website Basics: Code with HTML, CSS, and JavaScript ",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-01"
   },
   {
     "name": "The Raspberry Pi Platform and Python Programming for the Raspberry Pi",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-01"
   },
   {
     "name": "Using Databases with Python",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-01"
   },
   {
     "name": "Using Python to Access Web Data",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2016-01"
   },
   {
     "name": "用Python玩转数据 Data Processing Using Python",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2015-12"
   },
   {
     "name": "Programming for Everybody (Getting Started with Python)",
-    "platform": "Coursera"
+    "platform": "Coursera",
+    "date": "2015-10"
   }
 ]

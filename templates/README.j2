@@ -37,6 +37,7 @@ Containing books I read, courses I took, etc.
     <tr>
       <th>Name</th>
       <th>Platform</th>
+      <th>Finished Date</th>
     </tr>
   </thead>
   <tbody>
@@ -44,6 +45,7 @@ Containing books I read, courses I took, etc.
     <tr>
       <td>{{ course.name }}</td>
       <td>{{ course.platform }}</td>
+      <td>{{ course.date }}</td>
     </tr>
   {%- endfor %}
   </tbody>
@@ -59,6 +61,8 @@ Containing books I read, courses I took, etc.
     <tr>
       <th>Title</th>
       <th>Authors</th>
+      <th>Rating</th>
+      <th>Read Date</th>
     </tr>
   </thead>
   <tbody>
@@ -66,6 +70,8 @@ Containing books I read, courses I took, etc.
     <tr>
       <td><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></td>
       <td>{{ paper.authors }}</td>
+      <td>{{ paper.rate * ':+1:' }}</td>
+      <td>{{ paper.date }}</td>
     </tr>
   {%- endfor %}
   </tbody>

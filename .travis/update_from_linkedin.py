@@ -6,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import re
 from urllib.parse import urlencode
 
 COURSE_STORE = os.path.join('data', 'courses.json')
@@ -61,9 +62,13 @@ def get_courses(sess, latest_course):
             platform = cert.header.find('h5', class_='item-subtitle')
             platform = platform.a.text
             platform = get_course_platform(platform)
+            date = cert.header.find('div', class_='meta').span.text
+            date_match = re.search(r'(\d+).*?(\d+)', date)
+            date = '{0}-{1:0>2}'.format(*date_match.groups())
             yield {
                 'name': name,
-                'platform': platform
+                'platform': platform,
+                'date': date
             }
 
     resp.raise_for_status()

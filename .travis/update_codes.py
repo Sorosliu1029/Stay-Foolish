@@ -5,6 +5,7 @@ Update data/codes.json
 import json
 import os
 import sys
+from datetime import datetime
 import requests
 
 GITHUB_SEARCH_URL = 'https://api.github.com/search/repositories'
@@ -22,6 +23,8 @@ def main():
     name = input('Source code name? ').strip()
     assert name
     language = input('In which programming language? ') or None
+    rate = int(input('In which level will you recommend? [1-5] '))
+    assert rate and 1 <= rate <= 5
     
     items = search_from_github(name, language)
     items = list(filter(lambda item: item['language'] and item['language'].lower() == language.lower(), items))
@@ -36,6 +39,8 @@ def main():
     selected = int(input('Select one of the candidates: ([1]-{limit}) '.format(limit=LIST_LIMIT)) or '1')
 
     source_code = brief_items[selected-1]
+    source_code['rate'] = rate
+    source_code['date'] = datetime.today().strftime('%Y-%m-%d')
 
     if not os.path.exists(CODE_STORE):
         with open(CODE_STORE, 'wt', encoding='utf-8') as f:
