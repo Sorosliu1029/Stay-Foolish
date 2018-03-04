@@ -46,6 +46,18 @@ def extract_info(html, keywords, site):
     else:
         return None
 
+def get_game_icon(href):
+    if href:
+        resp = requests.get(href)
+        if resp.ok:
+            html = resp.text
+            soup = BeautifulSoup(html, 'lxml')
+            icon_link = soup.find('img', class_='we-artwork__image')
+            if icon_link:
+                icon_link = icon_link['src']
+            return icon_link
+        resp.raise_for_status()
+
 def main():
     opt = 'n'
     try:
@@ -65,6 +77,7 @@ def main():
             for site, site_url in PLATFORMS.items():
                 href = query_from_bing(name, site_url)
                 game_info[site] = href
+            game_info['icon_link'] = get_game_icon(game_info['itunes']) 
             
             print('Please confirm game info below:')
             for k, v in game_info.items():

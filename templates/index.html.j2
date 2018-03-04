@@ -187,6 +187,7 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
+                                            <th>Icon</th>
                                             <th>Name</th>
                                             <th>Rating</th>
                                             <th>Platform</th>
@@ -195,6 +196,7 @@
                                     <tbody>
                                         {%- for game in games %}
                                         <tr>
+                                            <td><img src="{{ game.icon_link }}" style="border-radius: 22.5%;"  width="50px" height="50px" alt /></td>
                                             <td>
                                                 {%- if game.en_name is not none -%} 
                                                     {{ game.en_name }}

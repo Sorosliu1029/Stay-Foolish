@@ -4,125 +4,143 @@
     "cn_name": "众多回忆的食堂故事",
     "rate": 4,
     "itunes": "https://itunes.apple.com/cn/app/%E4%BC%97%E5%A4%9A%E5%9B%9E%E5%BF%86%E7%9A%84%E9%A3%9F%E5%A0%82%E6%95%85%E4%BA%8B/id1255041179?mt=8",
-    "steam": null
+    "steam": null,
+    "icon_link": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/30/ee/43/30ee43ef-85ae-b8f8-7af1-25c50c745761/pr_source.png/246x0w.jpg"
   },
   {
     "en_name": "Plague Inc",
     "cn_name": "瘟疫公司",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/plague-inc-%E7%98%9F%E7%96%AB%E5%85%AC%E5%8F%B8/id525818839?mt=8",
-    "steam": "http://store.steampowered.com/app/246620/Plague_Inc_Evolved/"
+    "steam": "http://store.steampowered.com/app/246620/Plague_Inc_Evolved/",
+    "icon_link": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/af/2f/3d/af2f3d54-854e-3eb9-0cfe-f11d28673d75/AppIcon-1x_U007emarketing-85-220-6.png/246x0w.jpg"
   },
   {
     "en_name": "Florence",
     "cn_name": null,
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/florence/id1297430468?mt=8",
-    "steam": null
+    "steam": null,
+    "icon_link": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/61/59/24/6159241b-fda1-4d2a-56e2-563f43deb933/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/246x0w.jpg"
   },
   {
     "en_name": "To the Moon",
     "cn_name": "去月球",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/%E5%8E%BB%E6%9C%88%E7%90%83-to-the-moon/id1159700098?mt=8",
-    "steam": "http://store.steampowered.com/app/206440/To_the_Moon/"
+    "steam": "http://store.steampowered.com/app/206440/To_the_Moon/",
+    "icon_link": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/91/d4/21/91d42186-bd02-99d0-8491-dd963dbfa22f/AppIcon-1x_U007emarketing-0-85-220-0-5.png/246x0w.jpg"
   },
   {
     "en_name": "Threes",
     "cn_name": null,
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/threes/id779157948?mt=8",
-    "steam": null
+    "steam": null,
+    "icon_link": "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/b4/bb/34/b4bb3462-3986-64d1-08d4-0a4a1ed6e26b/mzl.jppwwipi.png/246x0w.jpg"
   },
   {
     "en_name": "Monument Valley 2",
     "cn_name": "纪念碑谷2",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B72/id1238778050?l=en&mt=8",
-    "steam": null
+    "steam": null,
+    "icon_link": "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/5b/9d/56/5b9d569e-6213-7cbc-9728-728e6f7988c6/AppIcon-1x_U007emarketing-85-220-0-8.png/246x0w.jpg"
   },
   {
     "en_name": "Monument Valley",
     "cn_name": "纪念碑谷",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%B0%B7/id728293409?mt=8",
-    "steam": null
+    "steam": null,
+    "icon_link": "https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/5f/a5/c4/5fa5c495-a0b9-15b4-4499-1553269ea5cd/AppIcon-1x_U007emarketing-85-220-5.png/246x0w.jpg"
   },
   {
     "en_name": "Gorogoa",
     "cn_name": null,
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/gorogoa/id1269225754?mt=8",
-    "steam": "http://store.steampowered.com/app/557600/Gorogoa/"
+    "steam": "http://store.steampowered.com/app/557600/Gorogoa/",
+    "icon_link": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/2e/2e/c1/2e2ec141-231c-9d8c-9a3c-5696c36ebaeb/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/246x0w.jpg"
   },
   {
     "en_name": "Botanicula",
     "cn_name": "植物精灵",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/%E6%A4%8D%E7%89%A9%E7%B2%BE%E7%81%B5-botanicula/id853706620?mt=8",
-    "steam": "http://store.steampowered.com/app/207690/Botanicula"
+    "steam": "http://store.steampowered.com/app/207690/Botanicula",
+    "icon_link": "https://is5-ssl.mzstatic.com/image/thumb/Purple111/v4/42/9c/a5/429ca5c4-29ed-e1bc-fce5-546aa7963d08/mzl.ffzmoqop.png/246x0w.jpg"
   },
   {
     "en_name": "Onimusha 3: Demon Siege",
     "cn_name": "鬼武者3",
     "rate": 5,
     "itunes": null,
-    "steam": null
+    "steam": null,
+    "icon_link": null
   },
   {
     "en_name": "Devil May Cry 4",
     "cn_name": "鬼泣4",
     "rate": 5,
     "itunes": null,
-    "steam": "http://store.steampowered.com/app/45700/Devil_May_Cry_4/"
+    "steam": "http://store.steampowered.com/app/45700/Devil_May_Cry_4/",
+    "icon_link": null
   },
   {
     "en_name": "Sid Meier's Civilization® V",
     "cn_name": "文明5",
     "rate": 5,
     "itunes": null,
-    "steam": "http://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/"
+    "steam": "http://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/",
+    "icon_link": null
   },
   {
     "en_name": "Don't Starve: Reign of Giants",
     "cn_name": "饥荒 巨人的统治",
     "rate": 5,
     "itunes": null,
-    "steam": "http://store.steampowered.com/app/282470/Dont_Starve_Reign_of_Giants/"
+    "steam": "http://store.steampowered.com/app/282470/Dont_Starve_Reign_of_Giants/",
+    "icon_link": null
   },
   {
     "en_name": "Don't Starve: Shipwrecked",
     "cn_name": "饥荒 海难",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/dont-starve-shipwrecked/id1147297267?mt=8",
-    "steam": "http://store.steampowered.com/app/393010/Dont_Starve_Shipwrecked/"
+    "steam": "http://store.steampowered.com/app/393010/Dont_Starve_Shipwrecked/",
+    "icon_link": "https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/cf/a3/ad/cfa3ad78-a794-1e26-4072-07018441057c/AppIcon-1x_U007emarketing-85-220-9.png/246x0w.jpg"
   },
   {
     "en_name": "Don't Starve Together",
     "cn_name": "饥荒联机版",
     "rate": 5,
     "itunes": null,
-    "steam": "http://store.steampowered.com/app/322330/Dont_Starve_Together/"
+    "steam": "http://store.steampowered.com/app/322330/Dont_Starve_Together/",
+    "icon_link": null
   },
   {
     "en_name": "Don't Starve",
     "cn_name": "饥荒",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/dont-starve-pocket-edition/id1012298403?mt=8",
-    "steam": "http://store.steampowered.com/app/219740/Dont_Starve/"
+    "steam": "http://store.steampowered.com/app/219740/Dont_Starve/",
+    "icon_link": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/b6/45/3a/b6453a61-5878-870a-9d1d-577968a0f689/AppIcon-1x_U007emarketing-85-220-9.png/246x0w.jpg"
   },
   {
     "en_name": "Machinarium",
     "cn_name": "机械迷城",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/%E6%9C%BA%E6%A2%B0%E8%BF%B7%E5%9F%8E-machinarium/id459189186?mt=8",
-    "steam": "http://store.steampowered.com/app/40700/Machinarium"
+    "steam": "http://store.steampowered.com/app/40700/Machinarium",
+    "icon_link": "https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/7a/3d/91/7a3d912f-4fbc-a969-6c1e-c284821a0adb/mzl.ssmojsjf.png/246x0w.jpg"
   },
   {
     "en_name": "This War of Mine",
     "cn_name": "这是我的战争",
     "rate": 5,
     "itunes": "https://itunes.apple.com/cn/app/this-war-of-mine/id982175678?mt=8",
-    "steam": "http://store.steampowered.com/app/282070/This_War_of_Mine/"
+    "steam": "http://store.steampowered.com/app/282070/This_War_of_Mine/",
+    "icon_link": "https://is5-ssl.mzstatic.com/image/thumb/Purple117/v4/71/17/db/7117db6f-4174-0834-c9e5-dc0ba4ad1c8a/mzl.ryonykex.png/246x0w.jpg"
   }
 ]
