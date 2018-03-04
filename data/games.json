@@ -1,5 +1,21 @@
 [
   {
+    "en_name": "FRAMED",
+    "cn_name": null,
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/framed/id886565180?mt=8",
+    "steam": "http://store.steampowered.com/app/322450/FRAMED_Collection/",
+    "icon_link": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/37/49/a8/3749a823-3a2d-f3f5-b16f-64284648f971/AppIcon-1x_U007emarketing-0-85-220-0-9.png/246x0w.jpg"
+  },
+  {
+    "en_name": "The Room Three",
+    "cn_name": null,
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/the-room-three/id918054748?mt=8",
+    "steam": null,
+    "icon_link": "https://is2-ssl.mzstatic.com/image/thumb/Purple6/v4/04/61/48/04614843-13a8-cf2f-1880-22bd8996a2ff/mzl.kjbtntwf.png/246x0w.png"
+  },
+  {
     "en_name": null,
     "cn_name": "众多回忆的食堂故事",
     "rate": 4,
