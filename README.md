@@ -215,124 +215,154 @@ Containing books I read, courses I took, etc.
     <tr>
       <th>Name</th>
       <th>Platform</th>
+      <th>Finished Date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Convolutional Neural Networks</td>
       <td>Coursera</td>
+      <td>2018-02</td>
     </tr>
     <tr>
       <td>Deep Learning Specialization</td>
       <td>Coursera</td>
+      <td>2018-02</td>
     </tr>
     <tr>
       <td>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</td>
       <td>Coursera</td>
+      <td>2018-02</td>
     </tr>
     <tr>
       <td>Sequence Models</td>
       <td>Coursera</td>
+      <td>2018-02</td>
     </tr>
     <tr>
       <td>Structuring Machine Learning Projects</td>
       <td>Coursera</td>
+      <td>2018-02</td>
     </tr>
     <tr>
       <td>機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations</td>
       <td>Coursera</td>
+      <td>2018-01</td>
     </tr>
     <tr>
       <td>Functional Programming Principles in Scala</td>
       <td>Coursera</td>
+      <td>2017-12</td>
     </tr>
     <tr>
       <td>Neural Networks and Deep Learning</td>
       <td>Coursera</td>
+      <td>2017-12</td>
     </tr>
     <tr>
       <td>Fundamentals of Computing Specialization</td>
       <td>Coursera</td>
+      <td>2016-07</td>
     </tr>
     <tr>
       <td>The Arduino Platform and C Programming</td>
       <td>Coursera</td>
+      <td>2016-07</td>
     </tr>
     <tr>
       <td>The Fundamentals of Computing Capstone Exam</td>
       <td>Coursera</td>
+      <td>2016-07</td>
     </tr>
     <tr>
       <td>Capstone: Retrieving, Processing, and Visualizing Data with Python</td>
       <td>Coursera</td>
+      <td>2016-04</td>
     </tr>
     <tr>
       <td>Machine Learning Foundations: A Case Study Approach</td>
       <td>Coursera</td>
+      <td>2016-04</td>
     </tr>
     <tr>
       <td>Python for Everybody Specialization</td>
       <td>Coursera</td>
+      <td>2016-04</td>
     </tr>
     <tr>
       <td>Algorithmic Thinking (Part 2)</td>
       <td>Coursera</td>
+      <td>2016-03</td>
     </tr>
     <tr>
       <td>An Introduction to Interactive Programming in Python (Part 2)</td>
       <td>Coursera</td>
+      <td>2016-03</td>
     </tr>
     <tr>
       <td>Principles of Computing (Part 2)</td>
       <td>Coursera</td>
+      <td>2016-03</td>
     </tr>
     <tr>
       <td>机器学习</td>
       <td>Coursera</td>
+      <td>2016-03</td>
     </tr>
     <tr>
       <td>Algorithmic Thinking (Part 1)</td>
       <td>Coursera</td>
+      <td>2016-02</td>
     </tr>
     <tr>
       <td>An Introduction to Interactive Programming in Python (Part 1)</td>
       <td>Coursera</td>
+      <td>2016-02</td>
     </tr>
     <tr>
       <td>Introduction to the Internet of Things and Embedded Systems</td>
       <td>Coursera</td>
+      <td>2016-02</td>
     </tr>
     <tr>
       <td>Principles of Computing (Part 1)</td>
       <td>Coursera</td>
+      <td>2016-02</td>
     </tr>
     <tr>
       <td>Python 数据结构</td>
       <td>Coursera</td>
+      <td>2016-01</td>
     </tr>
     <tr>
       <td>Responsive Website Basics: Code with HTML, CSS, and JavaScript </td>
       <td>Coursera</td>
+      <td>2016-01</td>
     </tr>
     <tr>
       <td>The Raspberry Pi Platform and Python Programming for the Raspberry Pi</td>
       <td>Coursera</td>
+      <td>2016-01</td>
     </tr>
     <tr>
       <td>Using Databases with Python</td>
       <td>Coursera</td>
+      <td>2016-01</td>
     </tr>
     <tr>
       <td>Using Python to Access Web Data</td>
       <td>Coursera</td>
+      <td>2016-01</td>
     </tr>
     <tr>
       <td>用Python玩转数据 Data Processing Using Python</td>
       <td>Coursera</td>
+      <td>2015-12</td>
     </tr>
     <tr>
       <td>Programming for Everybody (Getting Started with Python)</td>
       <td>Coursera</td>
+      <td>2015-10</td>
     </tr>
   </tbody>
 </table>
@@ -347,12 +377,16 @@ Containing books I read, courses I took, etc.
     <tr>
       <th>Title</th>
       <th>Authors</th>
+      <th>Rating</th>
+      <th>Read Date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://scholar.google.com/" target="_blank">placeholder</a></td>
       <td>N/A</td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>1970-01-01</td>
     </tr>
   </tbody>
 </table>
