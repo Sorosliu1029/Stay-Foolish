@@ -206,7 +206,12 @@
                                     <tbody>
                                         {%- for game in games %}
                                         <tr>
-                                            <td><img src="{{ game.icon_link }}" style="border-radius: 22.5%;"  width="50px" height="50px" alt /></td>
+                                            <td>
+                                                <img src="{{ game.icon_link or '' }}" style="
+                                                    {%- if game.icon_link and 'steamstatic' not in game.icon_link -%}border-radius: 22.5%; {%- endif -%}
+                                                    height:50px;
+                                                    max-width:100px" alt />
+                                            </td>
                                             <td>
                                                 {%- if game.en_name is not none -%} 
                                                     {{ game.en_name }}

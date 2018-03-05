@@ -101,7 +101,7 @@
     "rate": 5,
     "itunes": null,
     "steam": "http://store.steampowered.com/app/45700/Devil_May_Cry_4/",
-    "icon_link": null
+    "icon_link": "http://cdn.steamstatic.com.8686c.com/steam/apps/45700/header.jpg?t=1447352696"
   },
   {
     "en_name": "Sid Meier's Civilization® V",
@@ -109,7 +109,7 @@
     "rate": 5,
     "itunes": null,
     "steam": "http://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/",
-    "icon_link": null
+    "icon_link": "http://cdn.steamstatic.com.8686c.com/steam/apps/8930/header.jpg?t=1490021806"
   },
   {
     "en_name": "Don't Starve: Reign of Giants",
@@ -117,7 +117,7 @@
     "rate": 5,
     "itunes": null,
     "steam": "http://store.steampowered.com/app/282470/Dont_Starve_Reign_of_Giants/",
-    "icon_link": null
+    "icon_link": "http://cdn.steamstatic.com.8686c.com/steam/apps/282470/header.jpg?t=1447360565"
   },
   {
     "en_name": "Don't Starve: Shipwrecked",
@@ -133,7 +133,7 @@
     "rate": 5,
     "itunes": null,
     "steam": "http://store.steampowered.com/app/322330/Dont_Starve_Together/",
-    "icon_link": null
+    "icon_link": "http://cdn.steamstatic.com.8686c.com/steam/apps/322330/header.jpg?t=1519330261"
   },
   {
     "en_name": "Don't Starve",
