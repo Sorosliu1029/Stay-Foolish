@@ -91,7 +91,8 @@
                                     <thead>
                                         <tr>
                                             <th>Title</th>
-                                            <th>Authors</th>
+                                            <th>Author</th>
+                                            <th>Journal</th>
                                             <th>Rating</th>
                                             <th>Read Date</th>
                                         </tr>
@@ -100,7 +101,8 @@
                                     {%- for paper in papers %}
                                         <tr>
                                             <td><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></td>
-                                            <td>{{ paper.authors }}</td>
+                                            <td>{{ paper.author }}</td>
+                                            <td>{{ paper.journal }}</td>
                                             <td>{{ paper.rate * '👍' }}</td>
                                             <td>{{ paper.date }}</td>
                                         </tr>
