@@ -1,5 +1,13 @@
 [
   {
+    "en_name": "Valiant Hearts: The Great War",
+    "cn_name": "勇敢的心：伟大战争",
+    "rate": 5,
+    "itunes": "https://itunes.apple.com/cn/app/valiant-hearts-the-great-war/id840190360",
+    "steam": "http://store.steampowered.com/app/260230/Valiant_Hearts_The_Great_War__Soldats_Inconnus__Mmoires_de_la_Grande_Guerre/",
+    "icon_link": "https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/89/5f/39/895f39ee-f93a-bb10-d059-5617ed4325dd/mzl.lzmsmjgx.jpg/246x0w.jpg"
+  },
+  {
     "en_name": "FRAMED 2",
     "cn_name": null,
     "rate": 5,
