@@ -34,6 +34,9 @@
                         <li role="presentation">
                             <a href="#games" aria-controls="games" role="tab" data-toggle="tab">Games</a>
                         </li>
+                        <li role="presentation">
+                            <a href="#recipes" aria-controls="recipes" role="tab" data-toggle="tab">Recipes</a>
+                        </li>
                     </ul>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="books">
@@ -240,6 +243,27 @@
                                                 {%- endif %}
                                             </td>
                                         </tr>
+                                        {%- endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="recipes">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Recipes I cooked. Count: {{ recipes|count }}</div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Cover</th>
+                                            <th>Name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {%- for recipe in recipes %}
+                                            <tr>
+                                                <td><img src="{{ recipe.cover_link }}" alt="{{ recipe.name }}" width="80px" /></td>
+                                                <td><a href="{{ recipe.link }}" rel="nofollow" target="_blank">{{ recipe.name }}</a></td>
+                                            </tr>
                                         {%- endfor %}
                                     </tbody>
                                 </table>
