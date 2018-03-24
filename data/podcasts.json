@@ -1,5 +1,61 @@
 [
   {
+    "id": 771194,
+    "url": "https://www.etw.fm/",
+    "title": "声东击西",
+    "description": "我们谈论技术和创新，也聊电影、城市和未来。这里有一手的现场观察和体验，还有不定期出现的神秘嘉宾。你可以感受星球大战粉丝大会现场的沸腾，也能想象一下未来世界里的出行，以及美国年轻人都在关心什么新鲜事儿。\n网站：etw.fm\n来信请寄：etwstudio@gmail.com \n微信和Instagram：etwstudio\n新浪微博：@声东击西ETW",
+    "thumbnail_url": "https://images.fireside.fm/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg",
+    "author": "ETW Studio"
+  },
+  {
+    "id": 3127,
+    "url": "http://99percentinvisible.org",
+    "title": "99% Invisible",
+    "description": "Design is everywhere in our lives, perhaps most importantly in the places where we've just stopped noticing. 99% Invisible is a weekly exploration of the process and power of design and architecture. From award winning producer Roman Mars. Learn more at 99percentinvisible.org.  \n\nA proud member of Radiotopia, from PRX. Learn more at radiotopia.fm.",
+    "thumbnail_url": "https://f.prxu.org/96/images/a2dfa88e-cbe9-4a41-b1a6-72694e60e7fd/99-1400.png",
+    "author": "Roman Mars"
+  },
+  {
+    "id": 558366,
+    "url": "http://www.economist.com/",
+    "title": "The Economist Radio (All audio)",
+    "description": "The Economist was founded in 1843 \"to throw white light on the subjects within its range\". For more from The Economist visit http://shop.economist.com/collections/audio",
+    "thumbnail_url": "https://imagecdn.acast.com/image?h=1500&w=1500&source=https%3A%2F%2Fmediacdn.acast.com%2Fassets%2Fec380acc-fe13-46a0-991f-a1e508d126f8%2F-jdz19rgm-radio_pp_rgb_1_.png",
+    "author": "The Economist"
+  },
+  {
+    "id": 592151,
+    "url": "https://museelogue.fireside.fm/",
+    "title": "博物志",
+    "description": "bowuzhi.fm 一档关于博物馆的播客。",
+    "thumbnail_url": "https://images.fireside.fm/podcasts/images/c/c31bea1c-0034-4381-9ad0-89823ce4540b/cover.jpg",
+    "author": "bowuzhi 070384"
+  },
+  {
+    "id": 432258,
+    "url": "http://keepcalm.audio",
+    "title": "保持冷静",
+    "description": "《保持冷静》是一档由郝海龙和 Erika 主持的两性类播客节目。在没有性教育的国度，我们只能自我教育。请各位保持冷静，我们的节目马上开始。\n\n郝海龙，诗人，Podcaster，比特新声联合创始人。\nErika，妇产科医师，女性性学方向研究者。",
+    "thumbnail_url": "http://keepcalm.audio/wp-content/uploads/powerpress/keepcalm-legacy.png",
+    "author": "郝海龙 & Erika"
+  },
+  {
+    "id": 10939,
+    "url": "https://www.merriam-webster.com/word-of-the-day",
+    "title": "Merriam-Webster's Word of the Day",
+    "description": "Build your vocabulary with Merriam-Webster's Word of the Day!  Each day a Merriam-Webster editor offers insight into a fascinating new word -- explaining its meaning, current use, and little-known details about its origin.",
+    "thumbnail_url": "//www.merriam-webster.com/assets/mw/static/wod-rss-images/wotd_podcast_logo_2.jpg",
+    "author": "Merriam-Webster"
+  },
+  {
+    "id": 164015,
+    "url": "https://www.theguardian.com/news/series/the-audio-long-read",
+    "title": "The Guardian's Audio Long Reads",
+    "description": "The Guardian's Audio Long Reads podcasts are a selection of the  Guardian’s long read articles which are published in the paper and online. It gives you the opportunity to get on with your day whilst listening to some of the finest journalism the Guardian has to offer: in-depth writing from around the world on immigration, crime, business, the arts and much more.",
+    "thumbnail_url": "https://uploads.guim.co.uk/2018/01/15/Audio_Long_Reads_Badge_3000x3000.jpg",
+    "author": "theguardian.com"
+  },
+  {
     "id": 4232,
     "url": "http://www.bbc.co.uk/programmes/p02pc9zn",
     "title": "The English We Speak",
