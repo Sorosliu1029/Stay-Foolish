@@ -215,7 +215,7 @@ Containing books I read, courses I took, etc.
 ---
 ### Courses I took
 <details open>
-<summary>Count: 29. Unfold to see the list.</summary>
+<summary>Count: 30. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -225,6 +225,11 @@ Containing books I read, courses I took, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Learning How to Learn: Powerful mental tools to help you master tough subjects</td>
+      <td>Coursera</td>
+      <td>2018-03</td>
+    </tr>
     <tr>
       <td>Convolutional Neural Networks</td>
       <td>Coursera</td>
