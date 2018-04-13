@@ -5,7 +5,7 @@ Containing books I read, courses I took, etc.
 ---
 ### Books I read
 <details open>
-<summary>Count: 32. Unfold to see the list.</summary>
+<summary>Count: 33. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -16,6 +16,12 @@ Containing books I read, courses I took, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img3.doubanio.com/view/subject/m/public/s27290876.jpg" alt="黄金时代" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/20435468/" rel="nofollow" target="_blank">黄金时代</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2018-04-08</td>
+    </tr>
     <tr>
       <td><img src="https://img3.doubanio.com/mpic/s4059293.jpg" alt="Dive Into Python 3" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/3628911/" rel="nofollow" target="_blank">Dive Into Python 3</a></td>

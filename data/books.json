@@ -1,5 +1,12 @@
 [
   {
+    "title": "黄金时代",
+    "douban_link": "https://book.douban.com/subject/20435468/",
+    "cover_url": "https://img3.doubanio.com/view/subject/m/public/s27290876.jpg",
+    "rate": 5,
+    "date": "2018-04-08"
+  },
+  {
     "title": "Dive Into Python 3",
     "douban_link": "https://book.douban.com/subject/3628911/",
     "cover_url": "https://img3.doubanio.com/mpic/s4059293.jpg",
