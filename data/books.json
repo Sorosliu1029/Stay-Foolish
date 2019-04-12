@@ -1,5 +1,12 @@
 [
   {
+    "title": "Redis设计与实现",
+    "douban_link": "https://book.douban.com/subject/25900156/",
+    "cover_url": "https://img1.doubanio.com/view/subject/m/public/s27297117.jpg",
+    "rate": 5,
+    "date": "2019-04-10"
+  },
+  {
     "title": "JavaScript语言精粹",
     "douban_link": "https://book.douban.com/subject/3590768/",
     "cover_url": "https://img3.doubanio.com/view/subject/m/public/s3651235.jpg",

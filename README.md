@@ -5,7 +5,7 @@ Containing books I read, courses I took, etc.
 ---
 ### Books I read
 <details open>
-<summary>Count: 34. Unfold to see the list.</summary>
+<summary>Count: 35. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -16,6 +16,12 @@ Containing books I read, courses I took, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img1.doubanio.com/view/subject/m/public/s27297117.jpg" alt="Redis设计与实现" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/25900156/" rel="nofollow" target="_blank">Redis设计与实现</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2019-04-10</td>
+    </tr>
     <tr>
       <td><img src="https://img3.doubanio.com/view/subject/m/public/s3651235.jpg" alt="JavaScript语言精粹" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/3590768/" rel="nofollow" target="_blank">JavaScript语言精粹</a></td>
