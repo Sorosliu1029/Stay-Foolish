@@ -5,7 +5,7 @@ Containing books I read, courses I took, etc.
 ---
 ### Books I read
 <details open>
-<summary>Count: 36. Unfold to see the list.</summary>
+<summary>Count: 37. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -16,6 +16,12 @@ Containing books I read, courses I took, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img3.doubanio.com/view/subject/m/public/s29424480.jpg" alt="育猫全书" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/27018534/" rel="nofollow" target="_blank">育猫全书</a></td>
+      <td>:+1::+1::+1:</td>
+      <td>2019-06-03</td>
+    </tr>
     <tr>
       <td><img src="https://img1.doubanio.com/view/subject/m/public/s29746747.jpg" alt="起源" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/30180290/" rel="nofollow" target="_blank">起源</a></td>
