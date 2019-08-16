@@ -5,7 +5,7 @@ Containing books I read, courses I took, etc.
 ---
 ### Books I read
 <details open>
-<summary>Count: 39. Unfold to see the list.</summary>
+<summary>Count: 40. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -16,6 +16,12 @@ Containing books I read, courses I took, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img3.doubanio.com/view/subject/m/public/s29721886.jpg" alt="被嫌弃的松子的一生" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/27110733/" rel="nofollow" target="_blank">被嫌弃的松子的一生</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2019-08-11</td>
+    </tr>
     <tr>
       <td><img src="https://img3.doubanio.com/view/subject/m/public/s3847911.jpg" alt="人生" width="50px" /></td>
       <td><a href="https://book.douban.com/subject/3803820/" rel="nofollow" target="_blank">人生</a></td>
