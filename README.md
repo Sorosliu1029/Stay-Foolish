@@ -5,7 +5,7 @@ Containing books I read, courses I took, etc.
 ---
 ### Books I read
 <details open>
-<summary>Count: 41. Unfold to see the list.</summary>
+<summary>Count: 43. Unfold to see the list.</summary>
 <table>
   <thead>
     <tr>
@@ -16,6 +16,18 @@ Containing books I read, courses I took, etc.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><img src="https://img3.doubanio.com/view/subject/m/public/s27935775.jpg" alt="Fluent Python: Clear, Concise, And Effective Programming " width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26278021/" rel="nofollow" target="_blank">Fluent Python: Clear, Concise, And Effective Programming </a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2019-09-17</td>
+    </tr>
+    <tr>
+      <td><img src="https://img3.doubanio.com/view/subject/m/public/s29140891.jpg" alt="Go程序设计语言(英文版)" width="50px" /></td>
+      <td><a href="https://book.douban.com/subject/26859123/" rel="nofollow" target="_blank">Go程序设计语言(英文版)</a></td>
+      <td>:+1::+1::+1::+1::+1:</td>
+      <td>2019-09-17</td>
+    </tr>
     <tr>
       <td><img src="https://img3.doubanio.com/view/subject/m/public/s28318691.jpg" alt="人类的群星闪耀时: 十四篇历史特写（增订版） " width="50px" /></td>
       <td><a href="https://book.douban.com/subject/26334507/" rel="nofollow" target="_blank">人类的群星闪耀时: 十四篇历史特写（增订版） </a></td>
