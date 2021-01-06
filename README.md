@@ -474,8 +474,6 @@ Containing books I read, courses I took, etc.
 ---
 Auto crawl, parse, generate and git periodically.
 
-Weekly updated by Travis CI  [![Build Status](https://travis-ci.org/Sorosliu1029/Stay-Foolish.svg?branch=master)](https://travis-ci.org/Sorosliu1029/Stay-Foolish)
-
 Powered by:
 
 - [requests](http://docs.python-requests.org/)
