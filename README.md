@@ -454,18 +454,16 @@ Containing books I read, courses I took, etc.
     <tr>
       <th>Title</th>
       <th>Author</th>
-      <th>Journal</th>
       <th>Rating</th>
       <th>Read Date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://scholar.google.com/" target="_blank">placeholder</a></td>
-      <td>N/A</td>
-      <td>test</td>
+      <td><a href="https://research.google/pubs/pub62/" target="_blank">MapReduce: Simplified Data Processing on Large Clusters</a></td>
+      <td>Jeffrey Dean, Sanjay Ghemawat</td>
       <td>:+1::+1::+1::+1::+1:</td>
-      <td>1970-01-01</td>
+      <td>2020-04-15</td>
     </tr>
   </tbody>
 </table>
